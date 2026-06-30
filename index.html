@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reminder — Alarm-style Reminder App</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 760px; margin: 0 auto; padding: 2.5rem 1.25rem; line-height: 1.6;
+      color: #1a1a2e;
+    }
+    @media (prefers-color-scheme: dark) { body { color: #e6e6f0; background: #15151f; } a { color: #8aa0ff; } }
+    h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+    .tag { color: #6b6b8a; margin-top: 0; }
+    .card { border: 1px solid #d9d9e8; border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+    @media (prefers-color-scheme: dark) { .card { border-color: #2e2e44; } }
+    a.btn { display: inline-block; margin-top: 0.5rem; color: #4b5bdc; text-decoration: none; font-weight: 600; }
+    ul { padding-left: 1.2rem; }
+    footer { margin-top: 2.5rem; font-size: 0.875rem; color: #6b6b8a; }
+  </style>
+</head>
+<body>
+  <h1>Reminder</h1>
+  <p class="tag">A reminder app for Android that behaves like an alarm clock — fires exact-time alarms that ring and vibrate even from a locked screen.</p>
+
+  <div class="card">
+    <h2>What it does</h2>
+    <ul>
+      <li>Schedule one-time and repeating reminders (daily, weekly, monthly, custom intervals).</li>
+      <li>Three alert intensities — from a quiet notification to a full-screen alarm that wakes the device.</li>
+      <li>Optional backup &amp; sync of your reminders to <strong>your own</strong> Google Drive and a Google Sheet.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <p>The app stores reminders locally on your device. Cloud backup is optional and writes only to your own Google account.</p>
+    <a class="btn" href="./privacy.html">Read the Privacy Policy →</a>
+  </div>
+
+  <footer>
+    Contact: <a href="mailto:jitendrajangid.codes@gmail.com">jitendrajangid.codes@gmail.com</a>
+  </footer>
+</body>
+</html>
